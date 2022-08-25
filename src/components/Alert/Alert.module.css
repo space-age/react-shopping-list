@@ -1,0 +1,28 @@
+/************************
+  Alert
+************************/
+.alert {
+  margin-bottom: 1.6rem;
+  height: 2rem;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 0.4rem;
+  letter-spacing: 0.4rem;
+  text-transform: capitalize;
+  transition: all 0.3s linear;
+}
+.alert-danger {
+  color: #c92a2a;
+  background: #ffc9c9;
+}
+.alert-success {
+  color: #2b8a3e;
+  background: #b2f2bb;
+}
+
+.alert-other {
+  color: #e67700;
+  background: #ffec99;
+}

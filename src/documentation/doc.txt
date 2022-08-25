@@ -1,0 +1,18 @@
+Command to install package to use icons: npm install @heroicons/react
+
+example on how to use it:
+///////////////////////////////////////////////////////////
+import { BeakerIcon } from '@heroicons/react/solid'
+
+function MyComponent() {
+  return (
+    <div>
+      <BeakerIcon className="h-5 w-5 text-blue-500"/>
+      <p>...</p>
+    </div>
+  )
+}
+///////////////////////////////////////////////////////////
+
+More information:
+The 24x24 outline icons can be imported from @heroicons/react/outline, and the 20x20 solid icons can be imported from @heroicons/react/solid.

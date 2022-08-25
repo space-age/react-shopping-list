@@ -1,0 +1,57 @@
+.form--submission {
+  display: flex;
+  justify-content: center;
+}
+
+.form--input-item {
+  padding: 0.4rem;
+  padding-left: 1.6rem;
+  background-color: #e9ecef;
+  border-top-left-radius: 0.8rem;
+  border-bottom-left-radius: 0.8rem;
+  border-color: transparent;
+  flex: 1 0 auto;
+  font-size: 1.6rem;
+  color: #495057;
+  text-transform: capitalize;
+}
+
+.from--input-item--editMode {
+  background-color: #d3f9d8;
+}
+
+.form--input-item::placeholder {
+  color: #495057;
+}
+
+.form--submit-btn {
+  /* Position and sizing */
+  flex: 0 0 8rem;
+  display: grid;
+  align-items: center;
+  padding: 0.4rem;
+
+  /* sizing */
+  text-transform: capitalize;
+  letter-spacing: 2px;
+
+  /* customizing */
+  border-bottom-right-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  border-color: transparent;
+  background: #99e9f2;
+  cursor: pointer;
+  /* content: #49a6e9; */
+  transition: all 0.3s linear;
+  font-size: 1.6rem;
+}
+
+.form--submit-btn--editMode {
+  background: #20c997;
+  color: #fff;
+}
+
+.form--submit-btn:hover {
+  background: #0b7285;
+  color: #fff;
+}

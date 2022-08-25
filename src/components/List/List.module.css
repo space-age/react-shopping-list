@@ -1,0 +1,9 @@
+.list--container {
+  margin-top: 3.2rem;
+  transition: all 0.3s linear;
+  /* visibility: hidden; */
+}
+
+.list--container-show {
+  visibility: visible;
+}

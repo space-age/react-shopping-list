@@ -1,0 +1,30 @@
+/*****************************
+Clear Button
+*****************************/
+.clear-btn {
+  /* Display */
+  display: grid;
+  align-items: center;
+
+  /* Sizing */
+  margin: 0 auto;
+  margin-top: 2.4rem;
+  width: 16rem;
+  height: 2.4rem;
+
+  /* Text */
+  font-size: 1.4rem;
+  letter-spacing: 5px;
+  color: #ff6b6b;
+  text-transform: capitalize;
+
+  /* Customizing */
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.clear-btn:hover {
+  color: #c92a2a;
+}

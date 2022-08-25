@@ -1,0 +1,26 @@
+.list--container {
+  /* Sizing Section */
+  padding: 3.2rem;
+  margin: 0 auto;
+  width: 90vw;
+  max-width: 56rem;
+  margin-top: 12.8rem;
+  margin-bottom: 12.8rem;
+  /* Customizing Section */
+  background-color: #fff;
+  border-radius: 0.8rem;
+  box-shadow: 0 10px 10px #ddd;
+  transition: all 0.3s linear;
+}
+
+.list--container:hover {
+  box-shadow: 0 10px 10px #ccc;
+}
+
+.list--container h2 {
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 550;
+}

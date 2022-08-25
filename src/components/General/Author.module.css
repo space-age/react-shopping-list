@@ -1,0 +1,11 @@
+.author--container {
+  text-align: center;
+  font-size: 1.5rem;
+  /* padding: 10rem; */
+}
+
+.author--name {
+  color: #3bc9db;
+  font-size: 3.6rem;
+  padding-bottom: 1.8rem;
+}
